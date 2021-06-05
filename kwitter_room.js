@@ -46,7 +46,7 @@
     window.location = "kwitter_page.html"
   }
   
-  function logout()
+  function log_out()
   {
     localStorage.removeItem("user_name");
     localStorage.removeItem("room_name");
